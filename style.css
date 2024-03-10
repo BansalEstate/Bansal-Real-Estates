@@ -499,7 +499,6 @@ button, a { transition: var(--transition); }
 
 
 
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
@@ -1434,7 +1433,6 @@ button, a { transition: var(--transition); }
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
-
 
 
   /**
