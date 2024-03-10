@@ -1,9 +1,11 @@
-function sendMail(){
+   function sendMail(){
+
     let parms = {
         name : document.getElementById( "name" ).value,
-        email : document.getElementById("email").value ,
-        phone:document.getElementById('phone').value,
-        message:document.getElementById("message").value,
+        email : document.getElementById("email").value,
+        phone : document.getElementById("phone").value,
+        message : document.getElementById("message").value,
     }
-    emailjs.send("service_akhsvgn","template_4cv6ei5",parms).then(alert("Email Sent !"))
+    
+    emailjs.send("service_tsmqbyg","template_4cv6ei5",parms).then(alert("Email Sent !"))
 }
